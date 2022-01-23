@@ -48,6 +48,12 @@
   margin-left: 50px;
 }
 
+.cat {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 50px;
+}
+
 .achieve {
   margin-left: -40px;
 }
@@ -133,4 +139,8 @@
   margin-right: 170px;
   float: left;
   font-size: 20px;
+}
+
+.main6 {
+  margin-top: 100px;
 }
