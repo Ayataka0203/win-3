@@ -17,7 +17,7 @@ import Footer from "./Footer";
 //プロフィール画面 ：Header+Main1+Main2+Footer
 //作品閲覧画面    ：Header+Main3+Main4+Footer
 //ホーム画面      ：Header+Main5+Main6+Main7+Main8+Footer
-//作品投稿画面    :Header+Footer
+//作品投稿画面    :Header+Main9+Footer
 //プロフィール設定画面:Header+Footer
 
 class App extends React.Component {

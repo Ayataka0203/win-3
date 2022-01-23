@@ -90,6 +90,84 @@ class Main9 extends React.Component {
             </RadioGroup>
           </FormControl>
         </div>
+
+        <div className="seigen">
+          <FormControl>
+            <FormLabel id="demo-radio-buttons-group-label">閲覧制限</FormLabel>
+            <RadioGroup
+              aria-labelledby="demo-radio-buttons-group-label"
+              defaultValue="female"
+              name="radio-buttons-group"
+            >
+              <FormControlLabel
+                value="female"
+                control={<Radio />}
+                label="全年齢可"
+              />
+              <FormControlLabel value="male" control={<Radio />} label="R-18" />
+              <FormControlLabel
+                value="other"
+                control={<Radio />}
+                label="R-18G"
+              />
+            </RadioGroup>
+          </FormControl>
+        </div>
+
+        <div className="hani">
+          <FormControl>
+            <FormLabel id="demo-radio-buttons-group-label">公開設定</FormLabel>
+            <RadioGroup
+              aria-labelledby="demo-radio-buttons-group-label"
+              defaultValue="female"
+              name="radio-buttons-group"
+            >
+              <FormControlLabel
+                value="female"
+                control={<Radio />}
+                label="公開"
+              />
+              <FormControlLabel
+                value="male"
+                control={<Radio />}
+                label="非公開"
+              />
+            </RadioGroup>
+          </FormControl>
+        </div>
+
+        <div className="seiteki">
+          <FormControl>
+            <FormLabel id="demo-radio-buttons-group-label">性的描写</FormLabel>
+            <RadioGroup
+              aria-labelledby="demo-radio-buttons-group-label"
+              defaultValue="female"
+              name="radio-buttons-group"
+            >
+              <FormControlLabel
+                value="female"
+                control={<Radio />}
+                label="なし"
+              />
+              <FormControlLabel
+                value="male"
+                control={<Radio />}
+                label="あり（軽度）"
+              />
+              <FormControlLabel
+                value="other"
+                control={<Radio />}
+                label="あり（重度）"
+              />
+            </RadioGroup>
+          </FormControl>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
       </div>
     );
   }

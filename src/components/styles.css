@@ -175,3 +175,27 @@
 .toukouBox {
   background-color: gray;
 }
+
+.syurui {
+  margin-top: -250px;
+  text-align: left;
+  margin-left: 600px;
+}
+
+.seigen {
+  margin-top: -149px;
+  text-align: left;
+  margin-left: 800px;
+}
+
+.hani {
+  margin-top: -149px;
+  text-align: left;
+  margin-left: 1000px;
+}
+
+.seiteki {
+  margin-top: -107px;
+  text-align: left;
+  margin-left: 1200px;
+}
