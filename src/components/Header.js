@@ -38,7 +38,7 @@ class Header extends React.Component {
         <ThemeProvider theme={theme}>
           <AppBar position="static" color="primary">
             <Toolbar>
-              <Typography variant="h6">Win-3</Typography>
+              <div className="title">Win-3</div>
             </Toolbar>
           </AppBar>
           <Container className="serchBox">
