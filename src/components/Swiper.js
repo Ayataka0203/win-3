@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
-import * as styles from "../styles/Swiper.module.css";
+//import * as styles from "../styles/Swiper.module.css";
 
 export default function Swiper() {
   const SliderWrapper = styled.div`
@@ -25,30 +25,29 @@ export default function Swiper() {
   };
 
   return (
-    <SliderWrapper>
-      <Slider {...settings}>
-        <div>
-          <img
-            src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
-            className={styles.slidingImages}
-          />
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-      </Slider>
-    </SliderWrapper>
+    <div className="slider">
+      <SliderWrapper>
+        <Slider {...settings}>
+          <div>
+            <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </SliderWrapper>
+    </div>
   );
 }
