@@ -6,6 +6,7 @@ import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
+import Button from "@mui/material/Button";
 
 class Main9 extends React.Component {
   render() {
@@ -161,9 +162,13 @@ class Main9 extends React.Component {
               />
             </RadioGroup>
           </FormControl>
-          <br></br>
-          <br></br>
-          <br></br>
+
+          <div className="toukouButton">
+            <Button variant="contained" disableElevation>
+              作品を投稿
+            </Button>
+          </div>
+
           <br></br>
           <br></br>
           <br></br>

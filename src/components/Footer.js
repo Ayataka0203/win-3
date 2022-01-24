@@ -31,7 +31,7 @@ class Footer extends React.Component {
               marginTop: "-40px"
             }}
           >
-            Copyright ©Hattori SG. 2021/12/10
+            Copyright ©Hattori SG. 2022/1/24
           </p>
           <br></br>
         </div>
