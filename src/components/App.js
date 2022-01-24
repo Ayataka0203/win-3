@@ -10,6 +10,7 @@ import Main6 from "./Main6";
 import Main7 from "./Main7";
 import Main8 from "./Main8";
 import Main9 from "./Main9";
+import Main10 from "./Main10";
 //import Swiper from "./Swiper";
 import Footer from "./Footer";
 
@@ -52,7 +53,7 @@ class App extends React.Component {
             <Main5 />
           </p>
         }
-        {/*
+        {
           <p>
             <Main6 />
           </p>
@@ -66,10 +67,15 @@ class App extends React.Component {
           <p>
             <Main8 />
           </p>
-        */}
+        }
         {
           <p>
             <Main9 />
+          </p>
+        */}
+        {
+          <p>
+            <Main10 />
           </p>
         }
         {
