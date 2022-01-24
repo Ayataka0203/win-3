@@ -52,7 +52,6 @@ class Main10 extends React.Component {
           </label>
         </div>
         <br></br>
-        <br></br>
         <p
           style={{
             marginLeft: "13px"
@@ -98,7 +97,6 @@ class Main10 extends React.Component {
         >
           <TextField fullWidth label="Twitter IDを入力" id="fullWidth" />
         </Box>
-
         <div className="gender">
           <FormControl>
             <FormLabel id="demo-radio-buttons-group-label">性別</FormLabel>
@@ -121,6 +119,13 @@ class Main10 extends React.Component {
             </RadioGroup>
           </FormControl>
         </div>
+        　　　　　
+        <div className="profKousin">
+          <Button variant="contained" disableElevation>
+            プロフィールを更新
+          </Button>
+        </div>
+        <br></br>
       </div>
     );
   }

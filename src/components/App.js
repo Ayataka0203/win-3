@@ -11,6 +11,7 @@ import Main7 from "./Main7";
 import Main8 from "./Main8";
 import Main9 from "./Main9";
 import Main10 from "./Main10";
+import BasicSelect from "./select";
 //import Swiper from "./Swiper";
 import Footer from "./Footer";
 
@@ -19,7 +20,7 @@ import Footer from "./Footer";
 //作品閲覧画面    ：Header+Main3+Main4+Footer
 //ホーム画面      ：Header+Main5+Main6+Main7+Main8+Footer
 //作品投稿画面    :Header+Main9+Footer
-//プロフィール設定画面:Header+Footer
+//プロフィール設定画面:Header+Main10+Footer
 
 class App extends React.Component {
   render() {
