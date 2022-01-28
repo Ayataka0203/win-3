@@ -1,4 +1,5 @@
 import React from "react";
+import Main4 from "./Main4";
 import Button from "@material-ui/core/Button";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ArticleIcon from "@mui/icons-material/Article";
@@ -8,22 +9,27 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 class Main3 extends React.Component {
   render() {
     return (
-      <div className="main3">
-        <div className="prof-left">
-          <div class="box box6">picture</div>
-        </div>
-        <ul className="task">
-          <div style={{ fontSize: "40px" }}>Summer sea</div>
-          <div className="icons4">
-            <FavoriteBorderIcon />
-            <ArticleIcon />
+      <>
+        <div className="main3">
+          <div className="prof-left">
+            <div class="box box6">picture</div>
           </div>
-          <Button color="primary" variant="contained">
-            by Ayataka0203
-          </Button>
-          <p>作品解説</p>
-        </ul>
-      </div>
+          <ul className="task">
+            <div style={{ fontSize: "40px" }}>Summer sea</div>
+            <div className="icons4">
+              <FavoriteBorderIcon />
+              <ArticleIcon />
+            </div>
+            <Button color="primary" variant="contained">
+              by Ayataka0203
+            </Button>
+            <p>作品解説</p>
+          </ul>
+        </div>
+        <p>
+          <Main4 />
+        </p>
+      </>
     );
   }
 }
