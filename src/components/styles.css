@@ -181,10 +181,6 @@
   text-align: center;
 }
 
-.toukouBox {
-  background-color: black;
-}
-
 .syurui {
   margin-top: -250px;
   text-align: left;
@@ -242,4 +238,16 @@
 
 .main5 {
   margin-top: -385px;
+}
+
+.toukouBox {
+  margin-top: 130px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.container {
+  margin-top: -48px;
+  margin-left: 95px;
+  margin-bottom: 120px;
 }

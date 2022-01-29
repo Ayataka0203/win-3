@@ -7,7 +7,7 @@ import Main5 from "./Main5";
 import Main9 from "./Main9";
 import Footer from "./Footer";
 
-//プロフィール画面 ：Header+Main1+Footer
+//プロフィール画面 ：Header+Main1+Footer　作品画面から遷移可
 //作品閲覧画面    ：Header+Main3+Footer
 //ホーム画面      ：Header+Main5+Footer
 //作品投稿画面    :Header+Main9+Footer
@@ -24,21 +24,21 @@ const App = () => {
           <Main1 />
         </p>
       */}
-      {
+      {/*
         <p>
           <Main3 />
         </p>
-      }
+      */}
       {/*
         <p>
           <Main5 />
         </p>
       */}
-      {/*
+      {
         <p>
           <Main9 />
         </p>
-      */}
+      }
       {
         <p>
           <Footer />
