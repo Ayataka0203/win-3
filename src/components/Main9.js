@@ -159,7 +159,7 @@ const Main9 = () => {
 
         <BrowserRouter>
           {/*<Switch>
-            <Route exact path="/Main1" component={Main1.js} />
+            <Route exact path="/Main1" component={Main1} />
        </Switch>*/}
           <Link to="/Main1">Back To Top</Link>
         </BrowserRouter>
