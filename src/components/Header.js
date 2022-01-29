@@ -36,7 +36,7 @@ const theme = createMuiTheme({
 const Header = () => {
   const [homeFlag, setHomeFlag] = useState(true);
   const [profFlag, setProfFlag] = useState(false);
-  const [homeIconFlag, setHomeIconFlag] = useState(false);
+  const [homeIconFlag, setHomeIconFlag] = useState(true);
   const [profIconFlag, setProfIconFlag] = useState(true);
   const onClickProf = () => {
     setHomeFlag(!homeFlag);

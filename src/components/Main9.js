@@ -1,4 +1,6 @@
 import React from "react";
+import Main1 from "./Main1";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Radio from "@mui/material/Radio";
@@ -154,6 +156,13 @@ const Main9 = () => {
             作品を投稿
           </Button>
         </div>
+
+        <BrowserRouter>
+          {/*<Switch>
+            <Route exact path="/Main1" component={Main1.js} />
+       </Switch>*/}
+          <Link to="/Main1">Back To Top</Link>
+        </BrowserRouter>
 
         <br></br>
         <br></br>
